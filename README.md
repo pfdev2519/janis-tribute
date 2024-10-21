@@ -27,4 +27,5 @@ Note: Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to
 <hr />
 
 <b> Final Result: </b>
+[Tribute](https://html-preview.github.io/?url=https://github.com/pfdev2519/janis-tribute/blob/master/index.html)
 
