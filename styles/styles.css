@@ -4,6 +4,7 @@
   --tablet: 768px;
   --phone: 480px;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -35,6 +36,7 @@ body {
   border-top: 4px solid #fdb347;
   border-bottom: 4px solid #fdb347;
 }
+
 blockquote {
   font-style: italic;
   position: absolute;
@@ -106,17 +108,16 @@ li {
   color: #fff8b3;
 }
 
-@media only screen and (max-width: 1200px) {
-}
+@media only screen and (max-width: 1200px) {}
 
-@media only screen and (max-width: 992px) {
-}
+@media only screen and (max-width: 992px) {}
 
 @media only screen and (max-width: 768px) {
   .image {
     min-width: 210px;
     max-height: 100px;
   }
+
   #external-links {
     flex-wrap: wrap;
     margin: 0 60px;
