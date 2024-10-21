@@ -1,0 +1,135 @@
+:root {
+  --desktop: 1200px;
+  --laptop: 992px;
+  --tablet: 768px;
+  --phone: 480px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #363636;
+  color: whitesmoke;
+  margin: 0;
+  font-size: 100%;
+  height: 100%;
+  font-family: "Special Elite", display;
+}
+
+#title {
+  color: #fde403;
+  text-align: center;
+  font-size: calc(14px + 3vw);
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+#main-image {
+  width: 100%;
+  margin-top: 0px;
+  padding: 0;
+  object-fit: cover;
+  max-height: 565px;
+  border-top: 4px solid #fdb347;
+  border-bottom: 4px solid #fdb347;
+}
+blockquote {
+  font-style: italic;
+  position: absolute;
+  color: #fff8b3;
+  margin: 3%;
+  width: 25%;
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+}
+
+#gallery {
+  padding: 3px;
+  margin: 0.1vw;
+}
+
+#external-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.image {
+  width: 15vw;
+  height: 8vw;
+  min-width: 180px;
+  min-height: 100px;
+  object-fit: cover;
+  border-radius: 20px;
+  filter: grayscale(100%);
+  margin: 0 auto;
+}
+
+#image:hover {
+  border: 2px solid #777;
+  opacity: 0.3;
+}
+
+figcaption {
+  text-align: center;
+  font-size: calc(10px + 0.3vw);
+}
+
+#tribute-info {
+  margin: 0 auto;
+  width: clamp(45ch, 50%, 150ch);
+  padding: 0;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+h2 {
+  margin: 25px 0 0 0;
+  padding: 0;
+  line-height: 0.5;
+  display: inline;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+#lyn {
+  color: #fde403;
+}
+
+.lightyellow-text {
+  color: #fff8b3;
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .image {
+    min-width: 210px;
+    max-height: 100px;
+  }
+  #external-links {
+    flex-wrap: wrap;
+    margin: 0 60px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .image {
+    min-width: 200px;
+    max-height: 100px;
+  }
+
+  #external-links {
+    margin: 0 10px;
+  }
+}
